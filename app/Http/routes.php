@@ -69,3 +69,21 @@ Route::post('oauth/access_token', function() {
 
 
 //Route::get('user',['middleware' => 'oauth','users' => 'UserController@index']);
+
+
+/*
+|--------------------------------------------------------------------------
+| API routes
+|--------------------------------------------------------------------------
+*/
+
+Route::group(['prefix' => 'api', 'namespace' => 'API'], function () {
+    Route::group(['prefix' => 'v1'], function () {
+        require config('infyom.laravel_generator.path.api_routes');
+    });
+});
+
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');

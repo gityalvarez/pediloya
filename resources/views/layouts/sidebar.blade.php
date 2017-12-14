@@ -3,7 +3,7 @@
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
 
-        <!-- Sidebar Panel de usuario (optional) -->
+        <!-- Sidebar user panel (optional) -->
         <div class="user-panel">
             <div class="pull-left image">
                 <img src="http://infyom.com/images/logo/blue_logo_150x150.jpg" class="img-circle"
@@ -20,16 +20,16 @@
             </div>
         </div>
 
-        <!-- formulario de busqueda (Optional) -->
-        <!--form action="#" method="get" class="sidebar-form">
+        <!-- search form (Optional) -->
+        <form action="#" method="get" class="sidebar-form">
             <div class="input-group">
-                <input type="text" name="q" class="form-control" placeholder="Burscar..."/>
+                <input type="text" name="q" class="form-control" placeholder="Search..."/>
           <span class="input-group-btn">
             <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i>
             </button>
           </span>
             </div>
-        </form-->
+        </form>
         <!-- Sidebar Menu -->
 
         <ul class="sidebar-menu">
