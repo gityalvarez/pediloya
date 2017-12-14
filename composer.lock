@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "418c39843c617d0eac6d986a98eb3c9b",
+    "content-hash": "b3496ad8dc1c6aa223164f1dbce52ed6",
     "packages": [
         {
             "name": "acoustep/entrust-gui",
