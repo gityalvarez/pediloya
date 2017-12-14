@@ -4,67 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3496ad8dc1c6aa223164f1dbce52ed6",
+    "content-hash": "acbddb6518859a9340fc2fdcd309fdd7",
     "packages": [
-        {
-            "name": "acoustep/entrust-gui",
-            "version": "5.2.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/acoustep/entrust-gui.git",
-                "reference": "d45542c3083f3c7615fdc6a34649a23e45c95451"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acoustep/entrust-gui/zipball/d45542c3083f3c7615fdc6a34649a23e45c95451",
-                "reference": "d45542c3083f3c7615fdc6a34649a23e45c95451",
-                "shasum": ""
-            },
-            "require": {
-                "esensi/model": "0.6.*",
-                "illuminate/console": "~5.2",
-                "illuminate/support": "~5.2",
-                "php": ">=5.5.9",
-                "prettus/l5-repository": "^2.1"
-            },
-            "require-dev": {
-                "codeception/codeception": "2.1.*",
-                "codeception/mockery-module": "0.2.*",
-                "mikey179/vfsstream": "1.5.*",
-                "mockery/mockery": "0.9.*",
-                "orchestra/testbench": "~3.2",
-                "phpunit/phpunit": "~4.1",
-                "symfony/console": "2.8.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Acoustep\\EntrustGui\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mitch Stanley",
-                    "email": "acoustep+entrustgui@fastmail.co.uk"
-                }
-            ],
-            "description": "A GUI for the Entrust package.",
-            "homepage": "https://github.com/acoustep/entrust-gui",
-            "keywords": [
-                "acl",
-                "auth",
-                "gui",
-                "illuminate",
-                "laravel",
-                "permission",
-                "roles"
-            ],
-            "time": "2017-11-17T16:14:21+00:00"
-        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.2.0",
@@ -621,86 +562,6 @@
                 "parser"
             ],
             "time": "2014-09-09T13:34:57+00:00"
-        },
-        {
-            "name": "esensi/model",
-            "version": "0.6.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/esensi/model.git",
-                "reference": "18183e19e10acfe3657b772eebaf519631dba1b2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/esensi/model/zipball/18183e19e10acfe3657b772eebaf519631dba1b2",
-                "reference": "18183e19e10acfe3657b772eebaf519631dba1b2",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "~5.1",
-                "illuminate/database": "~5.1 || >= 5.1.27",
-                "illuminate/encryption": "~5.1",
-                "illuminate/events": "~5.1",
-                "illuminate/hashing": "~5.1",
-                "illuminate/support": "~5.1",
-                "illuminate/validation": "~5.1",
-                "nesbot/carbon": "~1.9",
-                "paragonie/random_compat": "^1|^2",
-                "php": ">=5.5.9",
-                "symfony/polyfill-php56": "~1.1",
-                "watson/validating": "~1.0.0 || ~2.0.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "2.0.0-alpha",
-                "fzaninotto/faker": "~1.4",
-                "mockery/mockery": "0.9.*",
-                "phpspec/phpspec": "~2.1",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Esensi\\Model\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Emerson Media, LP.",
-                    "email": "wishlist@emersonmedia.com"
-                },
-                {
-                    "name": "Daniel LaBarge",
-                    "email": "daniel@emersonmedia.com"
-                }
-            ],
-            "description": "The base model traits of Esensi",
-            "keywords": [
-                "cast",
-                "casting",
-                "eloquent",
-                "emersonmedia",
-                "encrypting",
-                "esensi",
-                "hashing",
-                "juggling",
-                "laravel",
-                "model",
-                "purge",
-                "purging",
-                "sluggable",
-                "slugs",
-                "soft deleting",
-                "trait",
-                "trashing",
-                "type",
-                "validating",
-                "validation"
-            ],
-            "time": "2017-01-10T16:51:50+00:00"
         },
         {
             "name": "infyomlabs/adminlte-templates",
@@ -3012,61 +2873,6 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
-            "name": "watson/validating",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dwightwatson/validating.git",
-                "reference": "85e31d1f62ebf9dd9b63cf30f7318f379cc36179"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dwightwatson/validating/zipball/85e31d1f62ebf9dd9b63cf30f7318f379cc36179",
-                "reference": "85e31d1f62ebf9dd9b63cf30f7318f379cc36179",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "~5.0",
-                "illuminate/database": "~5.0 || >=5.1.27",
-                "illuminate/events": "~5.0",
-                "illuminate/support": "~5.0",
-                "illuminate/validation": "~5.0",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "0.9.*",
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Watson\\Validating\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dwight Watson",
-                    "email": "dwight@studiousapp.com"
-                }
-            ],
-            "description": "Eloquent model validating trait.",
-            "keywords": [
-                "eloquent",
-                "laravel",
-                "validation"
-            ],
-            "time": "2016-01-27T00:10:53+00:00"
-        },
-        {
             "name": "zircote/swagger-php",
             "version": "2.0.13",
             "source": {
@@ -3127,39 +2933,43 @@
                 "service discovery"
             ],
             "time": "2017-12-01T09:22:05+00:00"
-        },
+        }
+    ],
+    "packages-dev": [
         {
-            "name": "zizaco/entrust",
-            "version": "1.4.1",
+            "name": "acoustep/entrust-gui",
+            "version": "5.2.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Zizaco/entrust.git",
-                "reference": "3aa6e7923c5beea3fb0a5e57e902ae1d6beed173"
+                "url": "https://github.com/acoustep/entrust-gui.git",
+                "reference": "d45542c3083f3c7615fdc6a34649a23e45c95451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Zizaco/entrust/zipball/3aa6e7923c5beea3fb0a5e57e902ae1d6beed173",
-                "reference": "3aa6e7923c5beea3fb0a5e57e902ae1d6beed173",
+                "url": "https://api.github.com/repos/acoustep/entrust-gui/zipball/d45542c3083f3c7615fdc6a34649a23e45c95451",
+                "reference": "d45542c3083f3c7615fdc6a34649a23e45c95451",
                 "shasum": ""
             },
             "require": {
-                "illuminate/console": "~5.0",
-                "illuminate/support": "~5.0",
-                "php": ">=5.4.0"
+                "esensi/model": "0.6.*",
+                "illuminate/console": "~5.2",
+                "illuminate/support": "~5.2",
+                "php": ">=5.5.9",
+                "prettus/l5-repository": "^2.1"
             },
             "require-dev": {
-                "illuminate/database": "~5.0",
-                "mockery/mockery": "dev-master",
+                "codeception/codeception": "2.1.*",
+                "codeception/mockery-module": "0.2.*",
+                "mikey179/vfsstream": "1.5.*",
+                "mockery/mockery": "0.9.*",
+                "orchestra/testbench": "~3.2",
                 "phpunit/phpunit": "~4.1",
-                "sami/sami": "dev-master"
+                "symfony/console": "2.8.*"
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "src/commands"
-                ],
                 "psr-4": {
-                    "Zizaco\\Entrust\\": "src/Entrust/"
+                    "Acoustep\\EntrustGui\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3168,35 +2978,23 @@
             ],
             "authors": [
                 {
-                    "name": "Andrew Elkins",
-                    "homepage": "http://andrewelkins.com"
-                },
-                {
-                    "name": "Zizaco Zizuini",
-                    "email": "zizaco@gmail.com"
-                },
-                {
-                    "name": "Ben Batschelet",
-                    "homepage": "http://github.com/bbatsche"
-                },
-                {
-                    "name": "Michele Angioni",
-                    "email": "michele.angioni@gmail.com"
+                    "name": "Mitch Stanley",
+                    "email": "acoustep+entrustgui@fastmail.co.uk"
                 }
             ],
-            "description": "This package provides a flexible way to add Role-based Permissions to Laravel",
+            "description": "A GUI for the Entrust package.",
+            "homepage": "https://github.com/acoustep/entrust-gui",
             "keywords": [
                 "acl",
                 "auth",
+                "gui",
                 "illuminate",
                 "laravel",
                 "permission",
                 "roles"
             ],
-            "time": "2015-08-07T18:05:40+00:00"
-        }
-    ],
-    "packages-dev": [
+            "time": "2017-11-17T16:14:21+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.0.5",
@@ -3250,6 +3048,86 @@
                 "instantiate"
             ],
             "time": "2015-06-14T21:17:01+00:00"
+        },
+        {
+            "name": "esensi/model",
+            "version": "0.6.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/esensi/model.git",
+                "reference": "18183e19e10acfe3657b772eebaf519631dba1b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/esensi/model/zipball/18183e19e10acfe3657b772eebaf519631dba1b2",
+                "reference": "18183e19e10acfe3657b772eebaf519631dba1b2",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.1",
+                "illuminate/database": "~5.1 || >= 5.1.27",
+                "illuminate/encryption": "~5.1",
+                "illuminate/events": "~5.1",
+                "illuminate/hashing": "~5.1",
+                "illuminate/support": "~5.1",
+                "illuminate/validation": "~5.1",
+                "nesbot/carbon": "~1.9",
+                "paragonie/random_compat": "^1|^2",
+                "php": ">=5.5.9",
+                "symfony/polyfill-php56": "~1.1",
+                "watson/validating": "~1.0.0 || ~2.0.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.0.0-alpha",
+                "fzaninotto/faker": "~1.4",
+                "mockery/mockery": "0.9.*",
+                "phpspec/phpspec": "~2.1",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Esensi\\Model\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emerson Media, LP.",
+                    "email": "wishlist@emersonmedia.com"
+                },
+                {
+                    "name": "Daniel LaBarge",
+                    "email": "daniel@emersonmedia.com"
+                }
+            ],
+            "description": "The base model traits of Esensi",
+            "keywords": [
+                "cast",
+                "casting",
+                "eloquent",
+                "emersonmedia",
+                "encrypting",
+                "esensi",
+                "hashing",
+                "juggling",
+                "laravel",
+                "model",
+                "purge",
+                "purging",
+                "sluggable",
+                "slugs",
+                "soft deleting",
+                "trait",
+                "trashing",
+                "type",
+                "validating",
+                "validation"
+            ],
+            "time": "2017-01-10T16:51:50+00:00"
         },
         {
             "name": "fzaninotto/faker",
@@ -4539,6 +4417,61 @@
             "time": "2017-12-04T14:51:35+00:00"
         },
         {
+            "name": "watson/validating",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dwightwatson/validating.git",
+                "reference": "85e31d1f62ebf9dd9b63cf30f7318f379cc36179"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dwightwatson/validating/zipball/85e31d1f62ebf9dd9b63cf30f7318f379cc36179",
+                "reference": "85e31d1f62ebf9dd9b63cf30f7318f379cc36179",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.0",
+                "illuminate/database": "~5.0 || >=5.1.27",
+                "illuminate/events": "~5.0",
+                "illuminate/support": "~5.0",
+                "illuminate/validation": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Watson\\Validating\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dwight Watson",
+                    "email": "dwight@studiousapp.com"
+                }
+            ],
+            "description": "Eloquent model validating trait.",
+            "keywords": [
+                "eloquent",
+                "laravel",
+                "validation"
+            ],
+            "time": "2016-01-27T00:10:53+00:00"
+        },
+        {
             "name": "way/generators",
             "version": "dev-master",
             "source": {
@@ -4731,6 +4664,74 @@
                 "migrations"
             ],
             "time": "2017-02-15T21:39:05+00:00"
+        },
+        {
+            "name": "zizaco/entrust",
+            "version": "5.2.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zizaco/entrust.git",
+                "reference": "3623cc052937d9e62543402b50f24065720d44b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zizaco/entrust/zipball/3623cc052937d9e62543402b50f24065720d44b9",
+                "reference": "3623cc052937d9e62543402b50f24065720d44b9",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/cache": "~5.0",
+                "illuminate/console": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "illuminate/database": "~5.0",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "~4.1",
+                "sami/sami": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/commands"
+                ],
+                "psr-4": {
+                    "Zizaco\\Entrust\\": "src/Entrust/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrew Elkins",
+                    "homepage": "http://andrewelkins.com"
+                },
+                {
+                    "name": "Zizaco Zizuini",
+                    "email": "zizaco@gmail.com"
+                },
+                {
+                    "name": "Ben Batschelet",
+                    "homepage": "http://github.com/bbatsche"
+                },
+                {
+                    "name": "Michele Angioni",
+                    "email": "michele.angioni@gmail.com"
+                }
+            ],
+            "description": "This package provides a flexible way to add Role-based Permissions to Laravel",
+            "keywords": [
+                "acl",
+                "auth",
+                "illuminate",
+                "laravel",
+                "permission",
+                "roles"
+            ],
+            "time": "2016-12-29T06:25:06+00:00"
         }
     ],
     "aliases": [],
@@ -4741,6 +4742,7 @@
         "infyomlabs/swagger-generator": 20,
         "jlapp/swaggervel": 20,
         "acoustep/entrust-gui": 20,
+        "zizaco/entrust": 20,
         "xethron/migrations-generator": 20,
         "way/generators": 20
     },
